@@ -1,7 +1,15 @@
 {
   "name": "eslint-config-kholoddev",
   "version": "1.0.0",
-  "description": "",
+  "description": "Eslint config",
+  "keywords": [
+    "eslint-config",
+    "eslint",
+    "eslint-typescript",
+    "eslint-javascript",
+    "eslint-js",
+    "eslint-ts"
+  ],
   "author": "kholoddev@icloud.com",
   "license": "ISC",
   "main": "lib/index.js",
