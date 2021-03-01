@@ -6,10 +6,23 @@
   "license": "ISC",
   "main": "lib/index.js",
   "scripts": {
-    "publish": "npm publish"
+    "publish": "npm run build && npm publish",
+    "build": "gulp",
+    "eslint": "eslint src"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kholodDev/eslint-config-kholoddev.git"
+  },
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.15.2",
+    "@typescript-eslint/parser": "^4.15.2",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.21.0",
+    "typescript": "^4.2.2"
   }
 }
