@@ -50,4 +50,5 @@ module.exports = {
     'prefer-named-capture-group': 'off',
     'require-unicode-regexp': 'off',
     'default-param-last': 'off',
+    'no-lonely-if': 'off',
 }
