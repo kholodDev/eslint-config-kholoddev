@@ -24,8 +24,8 @@ If you use `TypeScript`:
         "resolveJsonModule": true,
         "esModuleInterop": true,
     },
-    "include": ["src/*.ts"],
-    "exclude": ["**/*.test.ts"],
+    "include": ["**/*.ts"],
+    "exclude": [],
 }
 ```
 
