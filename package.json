@@ -13,6 +13,9 @@
   "author": "kholoddev@icloud.com",
   "license": "ISC",
   "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
   "scripts": {
     "publish": "npm run build && npm publish",
     "build": "gulp",

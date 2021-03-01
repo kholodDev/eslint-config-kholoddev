@@ -44,3 +44,11 @@ $ npm i -D eslint babel-eslint typescript @typescript-eslint/parser @typescript-
     }
 }
 ```
+
+## .eslintrc
+
+```json
+{
+    "extends": ["eslint-config-kholoddev"]
+}
+```
